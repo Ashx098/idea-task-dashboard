@@ -277,3 +277,68 @@ body {
   overflow-wrap: break-word;
   white-space: normal; /* Ensures text wraps correctly */
 }
+
+.status-container {
+  margin-top: 10px;
+}
+
+.status-container label {
+  font-weight: bold;
+}
+
+.status-container select {
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+.priority-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.priority-low {
+  background-color: green;
+}
+
+.priority-medium {
+  background-color: orange;
+}
+
+.priority-high {
+  background-color: red;
+}
+
+.status-section {
+  margin-top: 10px;
+}
+
+.status-section select {
+  padding: 5px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.priority-badge, .status-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+/* 🔹 Priority Colors */
+.priority-low { background-color: green; }
+.priority-medium { background-color: orange; }
+.priority-high { background-color: red; }
+
+/* 🔹 Status Colors */
+.status-to-start { background-color: gray; }
+.status-in-progress { background-color: blue; }
+.status-need-review { background-color: purple; }
+.status-completed { background-color: green; }
